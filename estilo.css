@@ -1,0 +1,59 @@
+body{
+	background-image: url(imagens/fundo2.jpg);
+	background-size: cover;
+}
+
+nav a#logo{
+	background: url(imagens/logo2.png) no-repeat  ;
+	background-size:auto 100%;
+	width: 100px;
+	height: 70px;
+	text-indent: -9999px;
+	color: transparent;
+	margin: 10px;
+}
+
+nav{
+	background-color: rgba(0,0,0,0.5);
+	margin: 0;
+
+}
+
+
+
+nav ul li a{
+	color: white;
+}
+
+nav ul li a:hover{
+	color:red;
+}
+
+.btn-outline-success{
+	color: white;
+	border-color: white;
+}
+
+.carousel-control-prev-icon{
+	width: 100px;
+}
+
+.carousel-item img{
+	height: 380px;
+	width: 100%;
+}
+
+.carousel-control-prev-icon{
+	background-color: black;
+	width: 40px;
+}
+
+.carousel-control-next-icon{
+	background-color: black;
+	width: 40px;
+}
+
+
+
+
+
