@@ -3,7 +3,7 @@ body{
 	background-size: cover;
 }
 
-nav a#logo{
+.logo{
 	background: url(imagens/logo2.png) no-repeat  ;
 	background-size:auto 100%;
 	width: 100px;
@@ -16,9 +16,7 @@ nav a#logo{
 nav{
 	background-color: rgba(0,0,0,0.5);
 	margin: 0;
-
 }
-
 
 
 nav ul li a{
@@ -26,7 +24,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color:red;
+	color:black;
+	background-color: white;
 }
 
 .btn-outline-success{
@@ -53,6 +52,57 @@ nav ul li a:hover{
 	width: 40px;
 }
 
+.produtos{
+	border-right: 1px solid black;
+	width:150px;
+	height: 150px;
+	margin-left: 20px;
+}
+
+.produtos img{
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin:auto;
+}
+
+.produtos figcaption{
+	text-align: center;
+	color: red;
+}
+
+#titulo{
+	text-align: center;
+}
+
+.trans{
+	background:linear-gradient(60deg,white,green);
+
+}
+
+footer{
+	background-color:rgba(0,0,0,0.8);
+}
+
+footer h4{
+	display: inline-block;
+	color: white;
+}
+
+.redes{
+	display: inline-block;
+	margin:10px 0;
+	padding: 0;
+}
+
+#direitos{
+	background-color: black;
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	
+}
 
 
 
